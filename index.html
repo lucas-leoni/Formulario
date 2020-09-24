@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <section class="section-left">
+            <img src="./assets/images/image1.png" alt="">
+        </section>
+        <section class="section-right">
+            <div class="texto">
+                <h1>Criar meu cadastro</h1>
+                <p>Para acompanhar sua contratação de crédito você utilizará seu e-mail e CPF.</p>
+            </div>
+            <div class="forms">
+                <form action="">
+                    <div>
+                        <label for="">Nome</label>
+                        <input placeholder="Insira seu nome completo" type="text" required>
+                    </div>
+                    <div>
+                        <label for="">E-mail</label>
+                        <input placeholder="Insira um e-mail" type="email" required>
+                    </div>
+                    <div>
+                        <label for="">CPF</label>
+                        <input placeholder="Insira seu CPF" type="text" required>
+                    </div>
+                    <div>
+                        <label for="">Data de Nascimento</label>
+                        <input placeholder="Selecione sua data de nascimento" type="date" required>
+                    </div>
+                    <div>
+                        <label for="">Senha</label>
+                        <input placeholder="Insira uma senha" type="password" minlength="6" maxlength="24" required>
+                    </div>
+                    <div>
+                        <label for="">Confirmar senha</label>
+                        <input placeholder="Insira a senha novamente" type="password" minlength="6" maxlength="24" required>
+                    </div>
+                    <span class="politica">
+                        <input type="checkbox" required>
+                        <span class="texto-politica">
+                            <p>Li estou de acordo com a</p>
+                            <a href="">Política de Privacidade</a>
+                            <p>e a</p>
+                            <a href="">Política de Uso de Informações.</a>
+                        </span>
+                    </span>
+                </form> 
+            </div>
+            <button type="submit">
+                Criar conta.
+            </button>
+            <span class="login">
+                <p>Já possuo conta.</p>
+                <a href="">Entrar agora.</a>
+            </span>
+        </section>
+    </section>
+</body>
+</html>
